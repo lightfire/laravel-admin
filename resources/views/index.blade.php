@@ -34,9 +34,6 @@
     <script src="{{ admin_asset ("/vendor/laravel-admin/AdminLTE/dist/js/app.min.js") }}"></script>
     <script src="{{ admin_asset ("/vendor/laravel-admin/jquery-pjax/jquery.pjax.js") }}"></script>
     <script src="{{ admin_asset ("/vendor/laravel-admin/nprogress/nprogress.js") }}"></script>
-    <script src="{{ admin_asset ("/vendor/laravel-admin/fullcalendar/dist/fullcalendar.min.js") }}"></script>
-    <script src="{{ admin_asset ("/vendor/laravel-admin/fullcalendar/dist/locale-all.js") }}"></script>
-    <script src="{{ admin_asset ("/vendor/laravel-admin/fullcalendar/dist/gcal.min.js") }}"></script>
 
 
     <!--[if lt IE 9]>
@@ -74,6 +71,9 @@
 <script src="{{ admin_asset ("/vendor/laravel-admin/toastr/build/toastr.min.js") }}"></script>
 <script src="{{ admin_asset ("/vendor/laravel-admin/bootstrap3-editable/js/bootstrap-editable.min.js") }}"></script>
 <script src="{{ admin_asset ("/vendor/laravel-admin/sweetalert/dist/sweetalert.min.js") }}"></script>
+<script src="{{ admin_asset ("/vendor/laravel-admin/fullcalendar/dist/fullcalendar.min.js") }}"></script>
+<script src="{{ admin_asset ("/vendor/laravel-admin/fullcalendar/dist/locale-all.js") }}"></script>
+<script src="{{ admin_asset ("/vendor/laravel-admin/fullcalendar/dist/gcal.min.js") }}"></script>
 {!! Admin::js() !!}
 <script src="{{ admin_asset ("/vendor/laravel-admin/laravel-admin/laravel-admin.js") }}"></script>
 
